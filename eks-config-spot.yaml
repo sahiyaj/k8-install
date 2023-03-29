@@ -3,12 +3,12 @@ kind: ClusterConfig
 
 metadata:
   name: cluster123
-  region: ap-south-1c
+  region: ap-south-1
 
 managedNodeGroups:
 
 # `instanceTypes` defaults to [`m5.large`]
 - name: cluster-1
-  spot: true
+  spot: 
   ssh:
     publicKeyName: kuber
